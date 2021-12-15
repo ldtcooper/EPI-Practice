@@ -27,7 +27,7 @@ def decimal_paliondrome(num: int) -> bool:
         
         
 
-cases = [0, 1, 7, 11, 121, 333, 2147447412, -1, 12, 100, 1234567]
-answers = [True, True, True, True, True, True, True, False, False, False, False]
+cases = [0, 1, 7, 11, 121, 333, 999, 2147447412, -1, 12, 100, 1234567, 10]
+answers = [True, True, True, True, True, True, True, True, False, False, False, False, False]
 for i in range(len(cases)):
     print(cases[i], decimal_paliondrome(cases[i]) == answers[i])
